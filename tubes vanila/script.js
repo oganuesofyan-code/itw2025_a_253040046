@@ -31,7 +31,7 @@ hamburger.addEventListener("click", () => {
   hamburger.textContent = isOpen ? "✖" : "☰";
 });
 
-/* Auto close  klik menu */
+/* Auto close  clik menu */
 document.querySelectorAll("#nav-menu a").forEach(link => {
   link.addEventListener("click", () => {
     navMenu.classList.remove("active");

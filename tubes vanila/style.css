@@ -193,7 +193,14 @@ body {
   transform: rotate(180deg);
 }
 
-/* RESPONSIVE NAVBAR */
+footer {
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* responsiv navbar */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -208,7 +215,7 @@ body {
     width: 150px;
     padding: 4rem;
 
-    /* ANIMASI LEMBUT */
+    /* animasi smooth */
     opacity: 0;
     transform: translateY(-10px);
     pointer-events: none;
